@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Work Sans';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #ffffff;
+    /* cursor: none */
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+
+
+    /* @media only screen and (max-width: 1475px) {
+        .main{
+            background-color: green;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    } */
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    border: none;
+}
+
+.MuiBox-root.css-1jmjcem{
+    padding:0
+}
+
+.unselected {
+    background-color: #EEEEFF;
+}
+
+.selected {
+    background-color: #ffffff;
+    color: white
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    color:'none';
+}
+
+.makeStyles-inputRoot-3.MuiInputBase-root.MuiInputBase-colorPrimary.css-1le28he-MuiInputBase-root{
+    height:'48px'
+}
+
+.makeStyles-inputRoot-3.MuiInputBase-root.MuiInputBase-colorPrimary.css-1le28he-MuiInputBase-root{
+    margin-left: 0;;
+}
+
+
+.MuiListItemButton-root.MuiListItemButton-gutters.MuiButtonBase-root.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root{
+    border-radius: 8px;
+}
+
+.MuiDrawer-root.MuiDrawer-docked.css-45iewo-MuiDrawer-docked{
+    color:none;
+}
+
+.MuiPaper-root{
+    overflow-x: hidden;
+}
+
+.react-multiple-carousel__arrow--right {
+    right: calc(16% + 1px);
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fff8f8;
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

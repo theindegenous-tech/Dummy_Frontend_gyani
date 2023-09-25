@@ -1,0 +1,15 @@
+.img-container{
+    display: flex;
+    align-items: center;
+}
+
+@media print {
+    @page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    body {
+        padding-top: 33px;
+        /* padding-bottom: 72px ; */
+    }
+}

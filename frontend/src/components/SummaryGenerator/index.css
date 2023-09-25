@@ -1,0 +1,22 @@
+@media print {
+    /* Hide all elements inside #root */
+    .rpv-print__body-printing #root {
+        display: none;
+    }
+
+    /* Show the prepared pages */
+    .rpv-print__zone {
+        display: block;
+    }
+}
+
+.messages {
+    /* overflow: hidden; hides the scrollbar */
+    -ms-overflow-style: none; /* hides scrollbar on IE 10+ */
+    scrollbar-width: none; /* hides scrollbar on Firefox */
+  }
+  
+  .messages::-webkit-scrollbar {
+    display: none; /* hides the scrollbar on Chrome, Safari, and Opera */
+  }
+  

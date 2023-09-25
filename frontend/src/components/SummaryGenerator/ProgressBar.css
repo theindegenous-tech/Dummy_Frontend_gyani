@@ -1,0 +1,39 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .barContainer {
+    flex: 1;
+    height: 20px;
+    background: #dfdfe7;
+    border-radius: 12px;
+    overflow: hidden; /* Crucial part */
+  }
+  
+  .textValue {
+    width: 42px;
+    text-align: right;
+  }
+  
+  .fillerBackground {
+    height: 20px;
+    transition: "width 2s ease-i-out";
+    background: linear-gradient(90deg, blue, cyan);
+  }
+  
+  .filler {
+    transition: "width 2s ease-i-out";
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
